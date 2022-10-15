@@ -23,9 +23,7 @@ public:
     float getDistance_front(void);
     // returns distance from the side facing ultrasonic sensor
     float getDistance_right(void);
-    float getDistance_left(void);
-    
-    ~Obstacle();
+    float getDistance_left(void);    
 };
 
 #endif
