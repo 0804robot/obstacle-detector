@@ -15,7 +15,7 @@ Obstacle::Obstacle(int trigPin_1, int echoPin_1, int trigPin_2, int echoPin_2,in
 void Obstacle::init(){
     pinMode(trigPin_front, OUTPUT);
     pinMode(trigPin_right, OUTPUT);
-    pinMode(trigPin_left OUTPUT);
+    pinMode(trigPin_left, OUTPUT);
     pinMode(echoPin_front, INPUT);
     pinMode(echoPin_right, INPUT);
      pinMode(echoPin_left, INPUT);
