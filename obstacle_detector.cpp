@@ -2,11 +2,7 @@
 
 
 
-Obstacle::Obstacle(int trigPin_1, int echoPin_1, int trigPin_2, int echoPin_2,int trigPin_3,int echoPin_3, float *right_threshold,
-     float *front_threshold, float * left_threshold){
-    set_threshold_right = right_threshold;
-    set_threshold_front = front_threshold;
-    set_threshold_left = left_threshold;
+Obstacle::Obstacle(int trigPin_1, int echoPin_1, int trigPin_2, int echoPin_2,int trigPin_3,int echoPin_3){
     trigPin_front = trigPin_1;
     echoPin_front = echoPin_1;
     trigPin_right = trigPin_2;
